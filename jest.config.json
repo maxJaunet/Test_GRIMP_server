@@ -1,0 +1,14 @@
+{
+  "collectCoverage": true,
+  "moduleFileExtensions": [
+    "js",
+    "mjs"
+  ],
+  "preset": "ts-jest",
+  "transform": {
+    "^.+\\.js$": "babel-jest",
+    "^.+\\.mjs$": "babel-jest"
+  },
+  "verbose": true,
+  "testRegex": "((\\.|/*.)(test))\\.js?$"
+}
